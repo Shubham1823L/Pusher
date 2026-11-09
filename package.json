@@ -1,0 +1,23 @@
+{
+  "name": "pushnotifications",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "cd native && npx expo prebuild --clean",
+    "android": "cd native && npm run android",
+    "server": "cd server && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubham1823L/Pusher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Shubham1823L/Pusher/issues"
+  },
+  "homepage": "https://github.com/Shubham1823L/Pusher#readme"
+}
